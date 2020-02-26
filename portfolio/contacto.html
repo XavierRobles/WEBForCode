@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/contacto.css" />
     <title>Koppler Transporte Urgente</title>
 </head>
 
@@ -21,8 +21,52 @@
             </nav>
         </div>
     </header>
-<h1 class="XCabecera">Contacto</h1>
+<div class="XCabecera"><h1>Contacto</h1></div>
+<div class="Xformulario">
+<form name="Formulario" action="mailto:Kopplers@gmail.com" method="post">
 
+    <fieldset class="Xfielformulario">
+    <legend class="Xlegenformulario">Datos Personales</legend>
+  
+    
+        Nombre</nombre>:&nbsp;&nbsp;<input type="text" name="nombre" placeholder="Tu Nombre" minlength="3" required>&nbsp;&nbsp;
+        Primer apellido:&nbsp;&nbsp;<input type="text" name="text" placeholder="Tu apellido" required>&nbsp;&nbsp;
+        Segundo apellido:&nbsp;&nbsp;<input type="text" name="text"placeholder="Tu apellido" required><br>&nbsp;&nbsp;
+        <br>
+        <p class="Xsexo">Te sientes:
+
+        <nombre class="Xnombre">Hombre </nombre> <input type="radio" name="sexo" value="H"required>
+        <nombre class="Xnombre"> Mujer </nombre> <input type="radio" name="sexo" value="M"required>
+        <br>
+        <br>Fecha de nacimiento 
+            <input type="date" name="edad">
+        <br><br>
+        Email <input type="email" placeholder="Correo Electronico" required>
+        
+        
+
+       
+
+    </fieldset>
+    
+<fieldset>
+<legend class="XdatosInteres">Datos de Interes </legend>
+<p class="Xviajes">Selecione una opcion:
+    <select>
+        <option value="1" selected>Internacional</option>
+        <option value="2">Paqueteria</option>
+        <option value="3">Nacional</option>
+        <option value="4">Local</option>
+        <option value="5">Portes</option>
+        <option value="6">Mudanza</option>
+        </select></p>
+    </fieldset>
+
+
+
+
+</form>
+</div>
 </body>
 
 </html>
