@@ -96,3 +96,11 @@ header nav a {
     font-size: 22px;
     font-weight: bold;
 }
+.serv1{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    margin-bottom: 20px;
+    color: rgba(255, 110, 56, 0.99);
+}
