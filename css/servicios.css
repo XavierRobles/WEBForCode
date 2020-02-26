@@ -63,7 +63,7 @@ section .map {
     width: 300px;
     border: 0;
     margin: 20px;
-    
+
 }
 
 .noticias {
@@ -76,7 +76,7 @@ header div .logo img {
     font-size: 40px;
     line-height: 100px;
     float: left;
-    
+
     display: block;
     margin: auto;
     width: 18%;
@@ -95,4 +95,12 @@ header nav a {
     line-height: normal;
     font-size: 22px;
     font-weight: bold;
+}
+.Fserv1{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    margin-bottom: 20px;
+    color: rgba(255, 110, 56, 0.99);
 }
