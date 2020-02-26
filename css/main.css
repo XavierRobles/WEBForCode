@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+
+body {
+    background-color: burlywood;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+header {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+section img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.infos {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-left: 70px;
+}
+
+.infos .info {
+    float: left;
+    width: 43%;
+    margin-right: 57px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.contacto {
+    width: 90%;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}
+
+section .datos {
+    float: left;
+    margin: 20px;
+}
+
+section .map {
+    float: left;
+    width: 300px;
+    border: 0;
+    margin: 20px;
+    
+}
+
+.noticias {
+    float: left;
+    margin: 20px;
+}
+
+header div .logo img {
+    color: black;
+    font-size: 40px;
+    line-height: 100px;
+    float: left;
+    
+    display: block;
+    margin: auto;
+    width: 18%;
+}
+
+header nav {
+    float: right;
+    line-height: 130px;
+}
+
+header nav a {
+    display: inline-block;
+    color: orangered;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 22px;
+    font-weight: bold;
+}
