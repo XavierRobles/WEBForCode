@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: burlywood;
-    font-family:'Source Sans Pro', sans-serif;
+    background-color: #FFE1C7 ;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
@@ -16,67 +16,12 @@ header {
     margin-bottom: 20px;
 }
 
-.navbar {
-    width: 90%;
-    max-width: 1500px;
-    margin: auto;
-    overflow: hidden;
-}
-
-section img {
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 400px;
-    margin-bottom: 20px;
-}
-
-.infos {
-    width: 100%;
-    display: block;
-    margin: auto;
-    margin-left: 70px;
-}
-
-.infos .info {
-    float: left;
-    width: 43%;
-    margin-right: 57px;
-    background-color: white;
-    margin-bottom: 20px;
-}
-
-.contacto {
-    width: 90%;
-    display: block;
-    margin: auto;
-    overflow: hidden;
-}
-
-section .datos {
-    float: left;
-    margin: 20px;
-}
-
-section .map {
-    float: left;
-    width: 300px;
-    border: 0;
-    margin: 20px;
-    
-}
-
-.noticias {
-    float: left;
-    margin: 20px;
-}
-
 header div .logo img {
     color: black;
     font-size: 40px;
     line-height: 100px;
     float: left;
-    
+
     display: block;
     margin: auto;
     width: 18%;
@@ -95,4 +40,137 @@ header nav a {
     line-height: normal;
     font-size: 22px;
     font-weight: bold;
+}
+
+footer {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    margin-bottom: 20px;
+}
+
+footer .logofooter img {
+    display: inline-block;
+    margin: auto;
+    width: 46%;
+    margin-left: 310px;
+    margin-right: 320px;
+}
+
+footer .crea {
+    display: inline-block;
+    color: orangered;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 22px;
+    font-weight: bold;
+    float: left;
+    line-height: 110px;
+}
+
+footer .pi {
+    display: inline-block;
+    color: orangered;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 22px;
+    font-weight: bold;
+    float: right;
+    line-height: 110px;
+    margin: auto;
+}
+
+footer .logofooter {
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    width: 25%;
+}
+
+.navbar {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+section img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.infos {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-left: 70px;
+}
+
+.infos .info {
+    float: left;
+    width: 54%;
+    margin-right: 29px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.infos .info2 {
+    float: left;
+    width: 34%;
+    margin-right: 57px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.contacto {
+    width: 90%;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}
+
+section .datos {
+    float: left;
+    margin: 25px;
+}
+
+section .datos .btrabaja {
+    background-color: orangered;
+    color: white;
+    height: 30px;
+    padding: 5px;
+
+}
+
+section .datos a:link {
+    text-decoration: none;
+}
+
+
+.noticias {
+    float: left;
+    margin: 20px;
+}
+
+section .info2 .noticias img {
+    width: 100%;
+    height: 286px;
+}
+
+section .info2 .noticias a:link {
+    text-decoration: none;
+}
+
+iframe {
+    float: right;
+    width: 60%;
+    height: 400px;
+    margin: 30px;
+    border: 1;
 }
