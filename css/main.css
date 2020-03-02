@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #FFE1C7 ;
+    background-color: #FFE1C7;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -173,4 +173,59 @@ iframe {
     height: 400px;
     margin: 30px;
     border: 1;
+}
+
+.McuerpoA h2 {
+    color: orangered;
+    margin: 25px;
+    font-size: 28px;
+}
+
+.Mcuerpo2A h2 {
+    color: orangered;
+    margin: 25px;
+    display: inline-block;
+    font-size: 28px;
+
+}
+
+.McuerpoA p {
+    margin: 25px;
+    display: inline-block;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.Mcuerpo2A p {
+    margin: 25px;
+    display: inline-block;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.Mcuerpo {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+.Mcuerpo2 {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.Mcuerpo2B img {
+    float: left;
+    width: 40%;
+    margin: 29px;
+}
+.McuerpoB img {
+    float: right;
+    width: 38%;
+    margin: 29px;
 }
