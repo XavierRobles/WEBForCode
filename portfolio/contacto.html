@@ -31,17 +31,18 @@
     
         Nombre</nombre>:&nbsp;&nbsp;<input type="text" name="nombre" placeholder="Tu Nombre" minlength="3" required>&nbsp;&nbsp;
         Primer apellido:&nbsp;&nbsp;<input type="text" name="text" placeholder="Tu apellido" required>&nbsp;&nbsp;
-        Segundo apellido:&nbsp;&nbsp;<input type="text" name="text"placeholder="Tu apellido" required><br>&nbsp;&nbsp;
+        Empresa:&nbsp;&nbsp;<input type="text" name="text"placeholder="Nombre Empresa">&nbsp;&nbsp;
         <br>
-        <p class="Xsexo">Te sientes:
+        
+        <p class="Xsexo">Cliente: &nbsp;
 
-        <nombre class="Xnombre">Hombre </nombre> <input type="radio" name="sexo" value="H"required>
-        <nombre class="Xnombre"> Mujer </nombre> <input type="radio" name="sexo" value="M"required>
+        <nombre class="Xnombre">Empresa </nombre> <input type="radio" name="sexo" value="H"required>
+        <nombre class="Xnombre"> Particular </nombre> <input type="radio" name="sexo" value="M"required>
         <br>
-        <br>Fecha de nacimiento 
-            <input type="date" name="edad">
-        <br><br>
-        Email <input type="email" placeholder="Correo Electronico" required>
+
+        <br>
+        Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" placeholder="Correo Electronico" required>
+        <div>Telefono <input type="text" name="telefono" placeholder="Numero telefono"> </div>
         
         
 
@@ -51,7 +52,7 @@
     
 <fieldset>
 <legend class="XdatosInteres">Datos de Interes </legend>
-<p class="Xviajes">Selecione una opcion:
+<p class="Xviajes">Selecione Servicio:
     <select>
         <option value="1" selected>Internacional</option>
         <option value="2">Paqueteria</option>
@@ -59,8 +60,29 @@
         <option value="4">Local</option>
         <option value="5">Portes</option>
         <option value="6">Mudanza</option>
+        
         </select></p>
+        <p>Detalles de la consulta</p>
+
+        <textarea class="Xcomentario" rows="10" cols="50" minlength="5" aria-placeholder="Cuentanos">
+            
+            </textarea>
+        <br>Dia previsto del Servicio.
+        <input type="date" name="edad"> 
     </fieldset>
+    
+
+
+    <p class="XCondicion"><input type="checkbox" name="condiciones" value="check" required checked>
+        Deseo Recibir informacion sobre nuevas ofertas y noticias de <b><i><u>Koppler</u></i></b>. </p>
+    <p class="XCondicion"><input type="checkbox" name="condiciones" value="check" required>
+        Acepto las 
+        <a href="../portfolio/condicionesdeservicio.html">
+            Condiciones del servivio</a> y la 
+            <a href="./politicadeprivacidad.html">Politica de privacidad</a> de <b><i><u>Koppler</u></i></b>. <br></p> 
+    <br>
+<input type="submit" name="enviar" value="Enviar">
+<input type="reset" name="borrar" value="Borrar">
 
 
 

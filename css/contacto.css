@@ -112,7 +112,7 @@ header nav a {
 }
 .Xsexo{
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 .Xnombre {
@@ -122,4 +122,15 @@ header nav a {
     font-size: 22px;
     font-weight: bold;
     text-align: right;
+}
+.XCondicion {
+    text-align: left;
+   font-size: 10px; 
+}
+.Xviajes{
+    text-align: left;
+}
+.Xcomentario{
+    color: rgb(2, 2, 2);;
+
 }
