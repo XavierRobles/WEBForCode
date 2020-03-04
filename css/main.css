@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #FFE1C7;
+    background-image: url(../img/Asfalto.jpg);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -14,6 +14,7 @@ header {
     overflow: hidden;
     background: white;
     margin-bottom: 20px;
+    opacity: 90%;
 }
 
 header div .logo img {
@@ -40,6 +41,13 @@ header nav a {
     line-height: normal;
     font-size: 22px;
     font-weight: bold;
+    opacity: 100%;
+    z-index: 3;
+
+}
+
+header nav a:hover {
+    color: darkred;
 }
 
 footer {
@@ -48,6 +56,7 @@ footer {
     overflow: hidden;
     background: white;
     margin-bottom: 20px;
+    opacity: 90%;
 }
 
 footer .logofooter img {
@@ -126,6 +135,7 @@ section img {
     margin-right: 29px;
     background-color: white;
     margin-bottom: 20px;
+    opacity: 90%;
 }
 
 .infos .info2 {
@@ -134,6 +144,7 @@ section img {
     margin-right: 57px;
     background-color: white;
     margin-bottom: 20px;
+    opacity: 90%;
 }
 
 .contacto {
@@ -181,6 +192,7 @@ iframe {
     height: 400px;
     margin: 30px;
     border: 1;
+    opacity: 110%;
 }
 
 .McuerpoA h2 {
@@ -217,6 +229,7 @@ iframe {
     margin-left: 5%;
     background-color: white;
     margin-bottom: 20px;
+    opacity: 90%;
 
 }
 
@@ -226,6 +239,7 @@ iframe {
     margin-left: 5%;
     background-color: white;
     margin-bottom: 20px;
+    opacity: 90%;
 }
 
 .Mcuerpo2B img {
@@ -246,6 +260,7 @@ iframe {
     margin-left: 5%;
     background-color: white;
     margin-bottom: 20px;
+    opacity: 90%;
 }
 
 .Ploqbuscamos h2 {
@@ -269,6 +284,7 @@ iframe {
     margin-left: 5%;
     background-color: white;
     margin-bottom: 20px;
+    opacity: 90%;
 }
 
 .PRequisitos h2 {
@@ -292,6 +308,7 @@ iframe {
     margin-left: 5%;
     background-color: white;
     margin-bottom: 20px;
+    opacity: 90%;
 }
 
 .Poferta h2 {
