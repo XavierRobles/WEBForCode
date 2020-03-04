@@ -1,13 +1,23 @@
+*{
+    margin: 1%;
+    padding: 0%;
+}
+
 @font-face {
     font-family: 'Source Sans Pro';
     src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
 }
 
 body {
-    background-color: burlywood;
+    background-color: rgb(194, 192, 192);
     font-family:'Source Sans Pro', sans-serif;
+    color: black;
+    text-decoration: none;
+    
 }
-
+a{
+    color: orangered;
+}
 header {
     width: 95%;
     margin: auto;
@@ -133,4 +143,8 @@ header nav a {
 .Xcomentario{
     color: rgb(2, 2, 2);;
 
+}
+
+.XFooter{
+    text-align: right;
 }
