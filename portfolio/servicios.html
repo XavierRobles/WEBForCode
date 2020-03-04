@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/servicios.css" />
     <title>Koppler Transporte Urgente</title>
 </head>
 
@@ -23,7 +23,7 @@
     </header>
 
     <div class="Fcontenedor-frase">
-       <!--<img src="../img/repartos.png" class="Fimage"/>-->
+        <!--<img src="../img/repartos.png" class="Fimage"/>-->
         <h1 class="Ffrase">Nuestros clientes tendrán el mejor servicio a un precio asequible</h1>
         <h2 class="Ffrase-peq">Por ello queremos asegurarnos que elijas el servicio indicado.</h2>
         <aside>
@@ -73,12 +73,16 @@
             </div>
         </div>
     </div>
-    <div class="Fcontacto">
-
-
-
-
-
-
+    <div class="Fvaloracion">
+       <h1>Valora nuestro servicio</h1>
+        <form action="mailto:Kopplers@gmail.com" method="post">
+            <p>Nombre:  <input type="text" name="nombre" size="40"></p>
+            <p>E-mail:  <input type="number" name="mail" min="1900"></p>
+            <p>Valoracion sobre 10:  <input type="number" name="valor" min="0" max="10"></p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
     </div>
 </body></html>
