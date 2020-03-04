@@ -56,15 +56,14 @@ footer {
     overflow: hidden;
     background: white;
     margin-bottom: 20px;
-    opacity: 90%;
+    opacity: 0.9;
 }
 
 footer .logofooter img {
+    float: left;
     display: inline-block;
     margin: auto;
-    width: 46%;
-    margin-left: 310px;
-    margin-right: 320px;
+    width: 38%;
 }
 
 footer .crea {
@@ -73,23 +72,10 @@ footer .crea {
     text-decoration: none;
     padding: 10px 20px;
     line-height: normal;
-    font-size: 22px;
-    font-weight: bold;
-    float: left;
-    line-height: 110px;
-}
-
-footer .pi {
-    display: inline-block;
-    color: orangered;
-    text-decoration: none;
-    padding: 10px 20px;
-    line-height: normal;
-    font-size: 22px;
+    font-size: 12px;
     font-weight: bold;
     float: right;
-    line-height: 110px;
-    margin: auto;
+
 }
 
 footer .logofooter {
@@ -442,8 +428,45 @@ aside a {
     text-align: center;
 
 }
-.Xformulario, input {
+.Xformulario {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    margin-bottom: 20px;
+    opacity: 90%;
     text-align: center;
+}
+.Xformulario h2 {
+    color: orangered;
+    margin: 25px;
+    font-size: 28px;
+    text-align: center;
+}
+.Xformulario p {
+    margin: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+.Xformulario1 {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    margin-bottom: 20px;
+    opacity: 90%;
+    text-align: center;
+}
+.Xformulario1 h2 {
+    color: orangered;
+    margin: 25px;
+    font-size: 28px;
+    text-align: center;
+}
+.Xformulario1 p {
+    margin: 25px;
+    text-align: center;
+    font-size: 18px;
 }
 .Xlegenformulario{
     font-size: 22px;
@@ -453,7 +476,7 @@ aside a {
 .Xsexo{
     font-weight: bold;
     text-align: center;
-    color: white;
+
 }
 .Xnombre {
     color:Black;
@@ -473,4 +496,13 @@ aside a {
 .Xcomentario{
     color: rgb(2, 2, 2);;
 
+}
+.envires input {
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+}
+
+.condiuso p {
+    font-size: 13px
 }

@@ -12,80 +12,78 @@
         <div class="navbar">
             <div class="logo"><img src="../img/logoseur.jpg"></div>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Quienes somos</a>
-                <a href="#">Servicios</a>
+                <a href="../index1.0.html">Inicio</a>
+                <a href="quienessomos.html">Quienes somos</a>
+                <a href="servicios.html">Servicios</a>
                 <a href="#">Tracker</a>
                 <a href="#">Contacto</a>
-                <a href="#">Trabaja con nosotros</a>
+                <a href="trabajaconnosostros.html">Trabaja con nosotros</a>
             </nav>
         </div>
     </header>
-    <div class="XCabecera">
-        <h1>Contacto</h1>
-    </div>
+
+    <section class="img_central1">
+        <img src="../img/Furgo-blanca-TcN.jpg">
+    </section>
+
     <div class="Xformulario">
+        <h2>Datos Personales</h2>
         <form name="Formulario" action="mailto:Kopplers@gmail.com" method="post">
 
-            <fieldset class="Xfielformulario">
-                <legend class="Xlegenformulario">Datos Personales</legend>
+            <p>Nombre:&nbsp;&nbsp;<input type="text" name="nombre" minlength="3" size="30" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+                Apellidos:&nbsp;&nbsp;<input type="text" name="text"  size="30" required>&nbsp;&nbsp;</p>
 
-                Nombre</nombre>:&nbsp;&nbsp;<input type="text" name="nombre" placeholder="Tu Nombre" minlength="3" required>&nbsp;&nbsp;
-                Primer apellido:&nbsp;&nbsp;<input type="text" name="text" placeholder="Tu apellido" required>&nbsp;&nbsp;
-                Empresa:&nbsp;&nbsp;<input type="text" name="text" placeholder="Nombre Empresa">&nbsp;&nbsp;
+            <p class="Xsexo">Cliente: &nbsp;
+
+                <nombre class="Xnombre">Empresa </nombre> <input type="radio" name="sexo" value="H" required>
+                <nombre class="Xnombre"> Particular </nombre> <input type="radio" name="sexo" value="M" required>
                 <br>
-
-                <p class="Xsexo">Cliente: &nbsp;
-
-                    <nombre class="Xnombre">Empresa </nombre> <input type="radio" name="sexo" value="H" required>
-                    <nombre class="Xnombre"> Particular </nombre> <input type="radio" name="sexo" value="M" required>
-                    <br>
-
-                    <br>
-                    Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" placeholder="Correo Electronico" required>
-                    <div>Telefono <input type="text" name="telefono" placeholder="Numero telefono"> </div>
-
-
-
-
-
-            </fieldset>
-
-            <fieldset>
-                <legend class="XdatosInteres">Datos de Interes </legend>
-                <p class="Xviajes">Selecione Servicio:
-                    <select>
-                        <option value="1" selected>Internacional</option>
-                        <option value="2">Paqueteria</option>
-                        <option value="3">Nacional</option>
-                        <option value="4">Local</option>
-                        <option value="5">Portes</option>
-                        <option value="6">Mudanza</option>
-
-                    </select></p>
-                <p>Detalles de la consulta</p>
-
-                <textarea class="Xcomentario" rows="10" cols="50" minlength="5" aria-placeholder="Cuentanos">
-
-            </textarea>
-                <br>Dia previsto del Servicio.
-                <input type="date" name="edad">
-            </fieldset>
-
-
-
-            <p class="XCondicion"><input type="checkbox" name="condiciones" value="check" required checked>
-                Deseo Recibir informacion sobre nuevas ofertas y noticias de <b><i><u>Koppler</u></i></b>. </p>
-            <p class="XCondicion"><input type="checkbox" name="condiciones" value="check" required>
-                Acepto las
-                <a href="../portfolio/condicionesdeservicio.html">
-                    Condiciones del servivio</a> y la
-                <a href="./politicadeprivacidad.html">Politica de privacidad</a> de <b><i><u>Koppler</u></i></b>. <br></p>
+            </p>
             <br>
-            <input type="submit" name="enviar" value="Enviar">
-            <input type="reset" name="borrar" value="Borrar">
+            <p>Empresa:&nbsp;&nbsp;<input type="text" name="text"  size="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Telefono: &nbsp;&nbsp;<input type="text" size="30" name="telefono" > </p>
+            <p>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" size="50" required></p>
+
 
         </form>
     </div>
+    <div class="Xformulario1">
+        <h2>Datos de interés</h2>
+        <form name="Formulario1" action="mailto:Kopplers@gmail.com" method="post">
+            <p class="Xviajes">Selecione Servicio:
+                <select>
+                    <option value="7" selected></option>
+                    <option value="1">Internacional</option>
+                    <option value="2">Paqueteria</option>
+                    <option value="3">Nacional</option>
+                    <option value="4">Local</option>
+                    <option value="5">Portes</option>
+                    <option value="6">Mudanza</option>
+
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dia previsto del Servicio.
+            <input type="date" name="diap"></p>
+            <p>Detalles de la consulta</p>
+
+            <textarea class="Xcomentario" rows="10" cols="50" minlength="5" aria-placeholder="Cuentanos">
+
+            </textarea><br><br>
+
+            <div class="envires"><p><input type="submit" name="Enviar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" name="reset"></p></div><br>
+            <div class="condiuso">
+            <p class="XCondicion"><input type="checkbox" name="condiciones" value="check" required checked>
+                Deseo Recibir informacion sobre nuevas ofertas y noticias de <b><i><u>Koppler</u></i></b>. </p>
+            <p class="XCondicion"><input type="checkbox" name="condiciones" value="check" required>Acepto las<a href="../portfolio/condicionesdeservicio.html">
+                    Condiciones del servicio</a> y la
+                <a href="./politicadeprivacidad.html">Politica de privacidad</a> de <b><i><u>Koppler</u></i></b>. <br></p></div><br>
+
+        </form>
+    </div>
+    <footer>
+       <div class="crea"><p  class="XFooter">©2020 <a href="../index1.0.html"> Kopplers </a> All Rights
+              Reserved <br><br> Designed by
+              <a href="https://game.classcraft.com/student/class/7rXv3MRJvxQPNBJ6g/dashboard/players/oYGacvQyXvGKdDTKk">ForCode++ </a>
+              </div>
+        <div class="logofooter"><img src="../img/logo-uem.png"></div>
+    </footer>
 </body></html>
