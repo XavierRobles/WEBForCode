@@ -105,6 +105,14 @@ section img {
     margin-bottom: 20px;
 }
 
+.img_central1 img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 280px;
+    margin-bottom: 20px;
+}
+
 .infos {
     width: 100%;
     display: block;
@@ -211,6 +219,7 @@ iframe {
     margin-bottom: 20px;
 
 }
+
 .Mcuerpo2 {
     float: left;
     width: 90%;
@@ -224,8 +233,81 @@ iframe {
     width: 40%;
     margin: 29px;
 }
+
 .McuerpoB img {
     float: right;
     width: 38%;
     margin: 29px;
+}
+
+.Ploqbuscamos {
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.Ploqbuscamos h2 {
+    color: orangered;
+    margin: 25px;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.Ploqbuscamos p {
+    margin: 25px;
+    display: inline-block;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.PRequisitos {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.PRequisitos h2 {
+    color: orangered;
+    margin: 25px;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.PRequisitos p {
+    margin: 25px;
+    display: inline-block;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.Poferta {
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.Poferta h2 {
+    color: orangered;
+    margin: 25px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.Poferta p {
+    margin: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.formtexa {
+    width: 400px;
+    height: 200px;
 }
