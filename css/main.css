@@ -328,3 +328,149 @@ iframe {
     width: 400px;
     height: 200px;
 }
+
+.FcontenedorTodo {
+    background-color: white;
+    width: 95%;
+    height: 450px;
+    margin-left: 40px;
+}
+
+.FcontenedorTodo h1 {
+    color: orangered;
+    font-family: sans-serif;
+}
+
+.Fcontenedor-imagenes {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+
+
+.Fimage {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+h2 {
+    color: white;
+}
+
+.Fporte {
+    width: 100%;
+    height: 100%;
+}
+
+.Foverlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Ftexto {
+    background-color: #f09d56;
+    color: white;
+    font-size: 16px;
+    padding: 25px 32px;
+}
+
+.Fcontenedor:hover .Foverlay {
+    opacity: 0.9;
+}
+
+.Fcontenedor:hover .Fimagen {
+    opacity: 1;
+}
+
+.Fimagen img {
+    width: 100px;
+}
+
+aside h3 {
+    padding-bottom: 20px;
+}
+
+aside a {
+    border-radius: 10px;
+    background-color: darkorange;
+    color: #9be0e0;
+    margin-top: 30px;
+    padding: 10px 40px;
+    width: 30%;
+    text-decoration: none;
+}
+
+.Fcontenedor-frase {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    background-color: white;
+    width: 95%;
+    height: 200px;
+    margin-left: 40px;
+    opacity: 1;
+    position: relative;
+
+}
+.Fcontenedor-frase .Ffrase{
+    color: #ff642a;
+    position: relative;
+    opacity: 1;
+
+}
+.Fcontenedor-frase img{
+    opacity: 0.5     ;
+    height: 200px;
+    width: 1429px ;
+    position: absolute;
+}
+
+.XCabecera {
+    color: white;
+    text-align: center;
+
+}
+.Xformulario, input {
+    text-align: center;
+}
+.Xlegenformulario{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.Xsexo{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.Xnombre {
+    color:Black;
+}
+.XdatosInteres{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+}
+.XCondicion {
+    text-align: left;
+   font-size: 10px;
+}
+.Xviajes{
+    text-align: left;
+}
+.Xcomentario{
+    color: rgb(2, 2, 2);;
+
+}
