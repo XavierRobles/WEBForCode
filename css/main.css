@@ -20,12 +20,13 @@ header {
 header div .logo img {
     color: black;
     font-size: 40px;
-    line-height: 100px;
+    line-height: 130px;
     float: left;
 
     display: block;
     margin: auto;
-    width: 16%;
+    width: 20%;
+    padding: 12px;
 }
 
 header nav {
@@ -104,8 +105,51 @@ section img {
     display: block;
     margin: auto;
     width: 90%;
-    height: 280px;
+    height: 320px;
     margin-bottom: 20px;
+}
+
+.carrousel {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.carrousel img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.carrousel input[type="radio"] {
+   position: relative;
+    z-index: 50;
+    margin: 10px;
+
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+
+}
+
+.carrousel input[type="radio"]:checked ~ img{
+    opacity: 1;
+}
+
+.carrousel input[type="radio"] + label{
+
 }
 
 .infos {
@@ -346,7 +390,6 @@ iframe {
     border-radius: 3px;
 }
 
-
 .Fimage {
     width: 50px;
     height: 50px;
@@ -358,37 +401,6 @@ iframe {
 
 h2 {
     color: white;
-}
-
-.Fporte {
-    width: 100%;
-    height: 100%;
-}
-
-.Foverlay {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.Ftexto {
-    background-color: #f09d56;
-    color: white;
-    font-size: 16px;
-    padding: 25px 32px;
-}
-
-.Fcontenedor:hover .Foverlay {
-    opacity: 0.9;
-}
-
-.Fcontenedor:hover .Fimagen {
-    opacity: 1;
 }
 
 .Fimagen img {
@@ -583,7 +595,7 @@ aside a .b {
 }
 
 .Foverlay {
-    margin-top: 50px;
+    margin-top: 370px;
     transition: .5s ease;
     opacity: 0;
     position: absolute;
