@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <title>Koppler Transporte Urgente</title>
+    <script type="text/javascript" src="/javascript/contacto.js"></script>
 </head>
 
 <body>
@@ -27,29 +28,29 @@
 
     <div class="Xformulario">
         <h2>Datos Personales</h2>
-        <form name="Formulario" action="mailto:Kopplers@gmail.com" method="post">
+    <form name="Formulario" action="mailto:Kopplers@gmail.com" method="post" onsubmit="return validar();">
 
-            <p>Nombre:&nbsp;&nbsp;<input type="text" name="nombre" minlength="3" size="30" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Nombre:&nbsp;&nbsp;<input type="text" name="nombre" id="usuario">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-                Apellidos:&nbsp;&nbsp;<input type="text" name="text"  size="30" required>&nbsp;&nbsp;</p>
+                Apellidos:&nbsp;&nbsp;<input type="text" name="text" id="apellido">&nbsp;&nbsp;</p>
 
             <p class="Xsexo">Cliente: &nbsp;
 
-                <nombre class="Xnombre">Empresa </nombre> <input type="radio" name="sexo" value="H" required>
-                <nombre class="Xnombre"> Particular </nombre> <input type="radio" name="sexo" value="M" required>
+                Empresa </nombre> <input type="radio" name="sexo" value="H" required>
+                Particular </nombre> <input type="radio" name="sexo" value="M" required>
                 <br>
             </p>
             <br>
-            <p>Empresa:&nbsp;&nbsp;<input type="text" name="text"  size="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Telefono: &nbsp;&nbsp;<input type="text" size="30" name="telefono" > </p>
-            <p>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" size="50" required></p>
+            <p>Empresa:&nbsp;&nbsp;<input type="text" name="text" id="empresa" size="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Telefono: &nbsp;&nbsp;<input type="text" size="30" id="telefono" name="telefono" > </p>
+            <p>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="mail" required></p>
 
 
-        </form>
+       
     </div>
     <div class="Xformulario1">
         <h2>Datos de interés</h2>
-        <form name="Formulario1" action="mailto:Kopplers@gmail.com" method="post">
+        
             <p class="Xviajes">Selecione Servicio:
                 <select>
                     <option value="7" selected></option>
@@ -64,7 +65,7 @@
             <input type="date" name="diap"></p>
             <p>Detalles de la consulta</p>
 
-            <textarea class="Xcomentario" rows="10" cols="50" minlength="5" aria-placeholder="Cuentanos">
+            <textarea class="Xcomentario" id="textarea" rows="10" cols="50" minlength="5" aria-placeholder="Cuentanos">
 
             </textarea><br><br>
 
@@ -76,7 +77,7 @@
                     Condiciones del servicio</a> y la
                 <a href="./politicadeprivacidad.html">Politica de privacidad</a> de <b><i><u>Koppler</u></i></b>. <br></p></div><br>
 
-        </form>
+    </form>
     </div>
     <footer>
        <div class="crea"><p  class="XFooter">©2020 <a href="../index1.0.html"> Kopplers </a> All Rights
