@@ -23,6 +23,7 @@ function validar() {
     apellido.style.backgroundColor = "red";
     return false;
   }
+  
   if (!empresa.value) {
     alert("Ingrese su empresa");
     empresa.style.backgroundColor = "red";
