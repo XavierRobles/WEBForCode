@@ -6,10 +6,11 @@
 body {
     background-image: url(../img/Asfalto.jpg);
     font-family: 'Source Sans Pro', sans-serif;
+    max-width: 94%;
 }
 
 header {
-    width: 95%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
     background: white;
@@ -52,7 +53,7 @@ header nav a:hover {
 }
 
 footer {
-    width: 95%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
     background: white;
