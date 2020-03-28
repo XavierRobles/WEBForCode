@@ -1,167 +1,156 @@
-*{
-    margin: 1%;
-    padding: 0%;
+* {
+  margin: 1%;
+  padding: 0%;
 }
 
 @font-face {
-    font-family: 'Source Sans Pro';
-    src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  font-family: "Source Sans Pro";
+  src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
 }
 
 body {
-    background-color: rgb(194, 192, 192);
-    font-family:'Source Sans Pro', sans-serif;
-    color: black;
-    text-decoration: none;
-    
+  background-color: rgb(194, 192, 192);
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+  text-decoration: none;
 }
-a{
-    color: orangered;
+a {
+  color: orangered;
 }
 header {
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-    background: white;
-    margin-bottom: 20px;
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  background: white;
+  margin-bottom: 20px;
 }
 
 .navbar {
-    width: 90%;
-    max-width: 1500px;
-    margin: auto;
-    overflow: hidden;
+  width: 90%;
+  max-width: 1500px;
+  margin: auto;
+  overflow: hidden;
 }
 
 section img {
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 400px;
-    margin-bottom: 20px;
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 400px;
+  margin-bottom: 20px;
 }
 
 .infos {
-    width: 100%;
-    display: block;
-    margin: auto;
-    margin-left: 70px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-left: 70px;
 }
 
 .infos .info {
-    float: left;
-    width: 43%;
-    margin-right: 57px;
-    background-color: white;
-    margin-bottom: 20px;
+  float: left;
+  width: 43%;
+  margin-right: 57px;
+  background-color: white;
+  margin-bottom: 20px;
 }
 
 .contacto {
-    width: 90%;
-    display: block;
-    margin: auto;
-    overflow: hidden;
+  width: 90%;
+  display: block;
+  margin: auto;
+  overflow: hidden;
 }
 
 section .datos {
-    float: left;
-    margin: 20px;
+  float: left;
+  margin: 20px;
 }
 
 section .map {
-    float: left;
-    width: 300px;
-    border: 0;
-    margin: 20px;
-    
+  float: left;
+  width: 300px;
+  border: 0;
+  margin: 20px;
 }
 
 .noticias {
-    float: left;
-    margin: 20px;
+  float: left;
+  margin: 20px;
 }
 
 header div .logo img {
-    color: black;
-    font-size: 40px;
-    line-height: 100px;
-    float: left;
-    
-    display: block;
-    margin: auto;
-    width: 18%;
+  color: black;
+  font-size: 40px;
+  line-height: 100px;
+  float: left;
+
+  display: block;
+  margin: auto;
+  width: 18%;
 }
 
 header nav {
-    float: right;
-    line-height: 130px;
+  float: right;
+  line-height: 130px;
 }
 
 header nav a {
-    display: inline-block;
-    color: orangered;
-    text-decoration: none;
-    padding: 10px 20px;
-    line-height: normal;
-    font-size: 22px;
-    font-weight: bold;
+  display: inline-block;
+  color: orangered;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .XCabecera {
-    color: white;
-    text-align: center;
-
+  color: white;
+  text-align: center;
 }
-.Xformulario, input {
-    text-align: center;
+.Xformulario,
+input {
+  text-align: center;
 }
-.Xlegenformulario{
-    font-size: 22px;
-    font-weight: bold;
-
+.Xlegenformulario {
+  font-size: 22px;
+  font-weight: bold;
 }
-.Xsexo{
-    font-weight: bold;
-    text-align: center;
-    color: white;
+.Xsexo {
+  font-weight: bold;
+  text-align: center;
+  color: white;
 }
 .Xnombre {
-    color:Black;
+  color: Black;
 }
-.XdatosInteres{
-    font-size: 22px;
-    font-weight: bold;
-    text-align: right;
+.XdatosInteres {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
 }
 .XCondicion {
-    text-align: left;
-   font-size: 10px; 
+  text-align: left;
+  font-size: 10px;
 }
-.Xviajes{
-    text-align: left;
+.Xviajes {
+  text-align: left;
 }
-.Xcomentario{
-    color: rgb(2, 2, 2);;
-
-}
-
-.XFooter{
-    text-align: right;
+.Xcomentario {
+  color: rgb(2, 2, 2);
 }
 
+.XFooter {
+  text-align: right;
+}
 
-
-
-
-		.Xcontainer{
-			width:5px;
-			max-width:900px;
-		
-		
-		}
+.Xcontainer {
+  width: 5px;
+  max-width: 900px;
+}
 
 .icon {
-    width: 20px;
-    height: 20px;
-
+  width: 20px;
+  height: 20px;
 }

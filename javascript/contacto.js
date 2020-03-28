@@ -23,7 +23,7 @@ function validar() {
     apellido.style.backgroundColor = "red";
     return false;
   }
-  
+
   if (!empresa.value) {
     alert("Ingrese su empresa");
     empresa.style.backgroundColor = "red";
@@ -39,23 +39,23 @@ function validar() {
     alert("Ingrese un Email correctamente");
     mail.style.backgroundColor = "red";
     return false;
-  } else if (usuario.value.length  > 20) {
+  } else if (usuario.value.length > 20) {
     alert(
       "El numero de caracteres introducido superan el limite permitido. 20 caracteres maximo"
     );
 
     return false;
-  } else if (apellido.value.length  > 20) {
+  } else if (apellido.value.length > 20) {
     alert(
       "El numero de caracteres introducido superan el limite permitido. 20 caracteres maximo"
     );
     return false;
-  } else if (mail.value.length  > 50) {
+  } else if (mail.value.length > 50) {
     alert(
       "El numero de caracteres introducido superan el limite permitido. 50 caracteres maximo"
     );
     return false;
-  } else if (empresa.value.length  > 20) {
+  } else if (empresa.value.length > 20) {
     alert(
       "El numero de caracteres introducido superan el limite permitido. 20 caracteres maximo"
     );
