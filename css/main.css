@@ -681,3 +681,20 @@ aside a .b {
     text-align: center;
     font-size: 18px;
 }
+.CASA {
+    text-align: center;
+    background-color:orangered;
+    font-size: 50px;
+}
+footer .loParamos{
+    float: center;
+
+    margin: 0% 35%;
+    width: 4%
+   
+}
+footer .loParamos img{
+
+    width: 800%;
+   
+}
