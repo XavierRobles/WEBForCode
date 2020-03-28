@@ -1,700 +1,685 @@
 @font-face {
-    font-family: 'Source Sans Pro';
-    src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+  font-family: "Source Sans Pro";
+  src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
 }
 
 body {
-    background-image: url(../img/Asfalto.jpg);
-    font-family: 'Source Sans Pro', sans-serif;
-    max-width: 94%;
+  background-image: url(../img/Asfalto.jpg);
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 94%;
 }
 
 header {
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-    background: white;
-    margin-bottom: 20px;
-    opacity: 90%;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  background: white;
+  margin-bottom: 20px;
+  opacity: 90%;
 }
 
 header div .logo img {
-    color: black;
-    font-size: 40px;
-    line-height: 130px;
-    float: left;
+  color: black;
+  font-size: 40px;
+  line-height: 130px;
+  float: left;
 
-    display: block;
-    margin: auto;
-    width: 20%;
-    padding: 12px;
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding: 12px;
 }
 
 header nav {
-    float: right;
-    line-height: 130px;
+  float: right;
+  line-height: 130px;
 }
 
 header nav a {
-    display: inline-block;
-    color: orangered;
-    text-decoration: none;
-    padding: 10px 20px;
-    line-height: normal;
-    font-size: 22px;
-    font-weight: bold;
-    opacity: 100%;
-    z-index: 3;
-
+  display: inline-block;
+  color: orangered;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 22px;
+  font-weight: bold;
+  opacity: 100%;
+  z-index: 3;
 }
 
 header nav a:hover {
-    color: darkred;
+  color: darkred;
 }
 
 footer {
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-    background: white;
-    margin-bottom: 20px;
-    opacity: 0.9;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  background: white;
+  margin-bottom: 20px;
+  opacity: 0.9;
 }
 
 footer .logofooter img {
-    float: left;
-    display: inline-block;
-    margin: auto;
-    width: 38%;
+  float: left;
+  display: inline-block;
+  margin: auto;
+  width: 38%;
 }
 
 footer .crea {
-    display: inline-block;
-    color: orangered;
-    text-decoration: none;
-    padding: 10px 20px;
-    line-height: normal;
-    font-size: 12px;
-    font-weight: bold;
-    float: right;
-
+  display: inline-block;
+  color: orangered;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
 }
 
 footer .logofooter {
-    display: inline-block;
-    margin: auto;
-    padding: 20px;
-    width: 25%;
+  display: inline-block;
+  margin: auto;
+  padding: 20px;
+  width: 25%;
 }
 
 .navbar {
-    width: 90%;
-    max-width: 1500px;
-    margin: auto;
-    overflow: hidden;
+  width: 90%;
+  max-width: 1500px;
+  margin: auto;
+  overflow: hidden;
 }
 
 section img {
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 500px;
-    margin-bottom: 20px;
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 500px;
+  margin-bottom: 20px;
 }
 
 .img_central1 img {
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 320px;
-    margin-bottom: 20px;
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 320px;
+  margin-bottom: 20px;
 }
 
 .carrousel {
-    position: relative;
-    list-style: none;
-    padding: 0;
-    display: flex;
-    width: 90%;
-    height: 500px;
-    margin: auto;
-    margin-bottom: 20px;
-    justify-content: center;
-    align-items: flex-end;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-.carrousel img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 0.7s;
+.carrousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.7s;
 }
 
 .carrousel input[type="radio"] {
-   position: relative;
-    z-index: 50;
-    margin: 10px;
+  position: relative;
+  z-index: 50;
+  margin: 10px;
 
-    width: 20px;
-    height: 20px;
-    background: white;
-    border-radius: 50%;
-
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
 }
 
-.carrousel input[type="radio"]:checked ~ img{
-    opacity: 1;
+.carrousel input[type="radio"]:checked ~ img {
+  opacity: 1;
 }
 
-.carrousel input[type="radio"] + label{
-
+.carrousel input[type="radio"] + label {
 }
 
 .infos {
-    width: 100%;
-    display: block;
-    margin: auto;
-    margin-left: 70px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-left: 70px;
 }
 
 .infos .info {
-    float: left;
-    width: 54%;
-    margin-right: 29px;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
+  float: left;
+  width: 54%;
+  margin-right: 29px;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
 }
 
 .datos h3 {
-    color: orangered;
-    font-size: 24px;
+  color: orangered;
+  font-size: 24px;
 }
 
 .noticias h3 {
-    color: orangered;
-    font-size: 24px;
+  color: orangered;
+  font-size: 24px;
 }
 
 .infos .info2 {
-    float: left;
-    width: 34%;
-    margin-right: 57px;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
+  float: left;
+  width: 34%;
+  margin-right: 57px;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
 }
 
 .contacto {
-    width: 90%;
-    display: block;
-    margin: auto;
-    overflow: hidden;
+  width: 90%;
+  display: block;
+  margin: auto;
+  overflow: hidden;
 }
 
 section .datos {
-    float: left;
-    margin: 25px;
+  float: left;
+  margin: 25px;
 }
 
 section .datos .btrabaja {
-    background-color: orangered;
-    color: white;
-    height: 30px;
-    padding: 5px;
-
+  background-color: orangered;
+  color: white;
+  height: 30px;
+  padding: 5px;
 }
 
 section .datos a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 .noticias {
-    float: left;
-    margin: 20px;
+  float: left;
+  margin: 20px;
 }
 
 section .info2 .noticias img {
-    width: 100%;
-    height: 286px;
+  width: 100%;
+  height: 286px;
 }
 
 section .info2 .noticias a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 iframe {
-    float: right;
-    width: 60%;
-    height: 400px;
-    margin: 30px;
-    border: 1px;
-    opacity: 110%;
+  float: right;
+  width: 60%;
+  height: 400px;
+  margin: 30px;
+  border: 1px;
+  opacity: 110%;
 }
 
 .McuerpoA h2 {
-    color: orangered;
-    margin: 25px;
-    font-size: 28px;
+  color: orangered;
+  margin: 25px;
+  font-size: 28px;
 }
 
 .Mcuerpo2A h2 {
-    color: orangered;
-    margin: 25px;
-    display: inline-block;
-    font-size: 28px;
-
+  color: orangered;
+  margin: 25px;
+  display: inline-block;
+  font-size: 28px;
 }
 
 .McuerpoA p {
-    margin: 25px;
-    display: inline-block;
-    text-align: justify;
-    font-size: 18px;
+  margin: 25px;
+  display: inline-block;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .Mcuerpo2A p {
-    margin: 25px;
-    display: inline-block;
-    text-align: justify;
-    font-size: 18px;
+  margin: 25px;
+  display: inline-block;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .Mcuerpo {
-    float: left;
-    width: 90%;
-    margin-left: 5%;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
-
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
 }
 
 .Mcuerpo2 {
-    float: left;
-    width: 90%;
-    margin-left: 5%;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
 }
 
 .Mcuerpo2B img {
-    float: left;
-    width: 40%;
-    margin: 29px;
+  float: left;
+  width: 40%;
+  margin: 29px;
 }
 
 .McuerpoB img {
-    float: right;
-    width: 38%;
-    margin: 29px;
+  float: right;
+  width: 38%;
+  margin: 29px;
 }
 
 .Ploqbuscamos {
-    float: left;
-    width: 45%;
-    margin-left: 5%;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
+  float: left;
+  width: 45%;
+  margin-left: 5%;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
 }
 
 .Ploqbuscamos h2 {
-    color: orangered;
-    margin: 25px;
-    font-size: 28px;
-    text-align: center;
-
+  color: orangered;
+  margin: 25px;
+  font-size: 28px;
+  text-align: center;
 }
 
 .Ploqbuscamos p {
-    margin: 25px;
-    display: inline-block;
-    text-align: justify;
-    font-size: 18px;
+  margin: 25px;
+  display: inline-block;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .PRequisitos {
-    float: left;
-    width: 40%;
-    margin-left: 5%;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
 }
 
 .PRequisitos h2 {
-    color: orangered;
-    margin: 25px;
-    font-size: 28px;
-    text-align: center;
-
+  color: orangered;
+  margin: 25px;
+  font-size: 28px;
+  text-align: center;
 }
 
 .PRequisitos p {
-    margin: 25px;
-    display: inline-block;
-    text-align: justify;
-    font-size: 18px;
+  margin: 25px;
+  display: inline-block;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .Poferta {
-    float: left;
-    width: 90%;
-    margin-left: 5%;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
 }
 
 .Poferta h2 {
-    color: orangered;
-    margin: 25px;
-    font-size: 28px;
-    text-align: center;
+  color: orangered;
+  margin: 25px;
+  font-size: 28px;
+  text-align: center;
 }
 
 .Poferta p {
-    margin: 25px;
-    text-align: center;
-    font-size: 18px;
+  margin: 25px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .formtexa {
-    width: 400px;
-    height: 200px;
+  width: 400px;
+  height: 200px;
 }
 
 .FcontenedorTodo {
-    background-color: white;
-    width: 95%;
-    height: 450px;
-    margin-left: 40px;
+  background-color: white;
+  width: 95%;
+  height: 450px;
+  margin-left: 40px;
 }
 
 .FcontenedorTodo h1 {
-    color: orangered;
-    font-family: sans-serif;
+  color: orangered;
+  font-family: sans-serif;
 }
 
 .Fcontenedor-imagenes {
-    display: flex;
-    width: 85%;
-    margin: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border-radius: 3px;
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px;
 }
 
 .Fimage {
-    width: 50px;
-    height: 50px;
-    opacity: 1;
-    display: block;
-    transition: .5s ease;
-    backface-visibility: hidden;
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
 }
 
 h2 {
-    color: white;
+  color: white;
 }
 
 .Fimagen img {
-    width: 100px;
+  width: 100px;
 }
 
 aside h3 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 aside a {
-    border-radius: 10px;
-    background-color: darkorange;
-    color: white;
-    margin-top: 30px;
-    padding: 10px 40px;
-    width: 30%;
-    text-decoration: none;
+  border-radius: 10px;
+  background-color: darkorange;
+  color: white;
+  margin-top: 30px;
+  padding: 10px 40px;
+  width: 30%;
+  text-decoration: none;
 }
 
 .b {
-    display: inline-block;
-    margin-left: 20px;
-    margin-top: 50px
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
 aside h3 .b {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 aside a .b {
-    border-radius: 10px;
-    background-color: darkorange;
-    color: white;
-    margin-top: 30px;
-    padding: 10px 40px;
-    width: 30%;
-    text-decoration: none;
+  border-radius: 10px;
+  background-color: darkorange;
+  color: white;
+  margin-top: 30px;
+  padding: 10px 40px;
+  width: 30%;
+  text-decoration: none;
 }
 
 .Fcontenedor-frase {
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    background-color: white;
-    width: 95%;
-    height: 200px;
-    margin-left: 40px;
-    opacity: 1;
-    position: relative;
-
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  background-color: white;
+  width: 95%;
+  height: 200px;
+  margin-left: 40px;
+  opacity: 1;
+  position: relative;
 }
-.Fcontenedor-frase .Ffrase{
-    color: #ff642a;
-    position: relative;
-    opacity: 1;
-
+.Fcontenedor-frase .Ffrase {
+  color: #ff642a;
+  position: relative;
+  opacity: 1;
 }
-.Fcontenedor-frase img{
-    opacity: 0.5     ;
-    height: 200px;
-    width: 1429px ;
-    position: absolute;
+.Fcontenedor-frase img {
+  opacity: 0.5;
+  height: 200px;
+  width: 1429px;
+  position: absolute;
 }
 
 .XCabecera {
-    color: white;
-    text-align: center;
-
+  color: white;
+  text-align: center;
 }
 .Xformulario {
-    float: left;
-    width: 90%;
-    margin-left: 5%;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
-    text-align: center;
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
+  text-align: center;
 }
 .Xformulario h2 {
-    color: orangered;
-    margin: 25px;
-    font-size: 28px;
-    text-align: center;
+  color: orangered;
+  margin: 25px;
+  font-size: 28px;
+  text-align: center;
 }
 .Xformulario p {
-    margin: 25px;
-    text-align: center;
-    font-size: 18px;
+  margin: 25px;
+  text-align: center;
+  font-size: 18px;
 }
 .Xformulario1 {
-    float: left;
-    width: 90%;
-    margin-left: 5%;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
-    text-align: center;
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
+  text-align: center;
 }
 .Xformulario1 h2 {
-    color: orangered;
-    margin: 25px;
-    font-size: 28px;
-    text-align: center;
+  color: orangered;
+  margin: 25px;
+  font-size: 28px;
+  text-align: center;
 }
 .Xformulario1 p {
-    margin: 25px;
-    text-align: center;
-    font-size: 18px;
+  margin: 25px;
+  text-align: center;
+  font-size: 18px;
 }
-.Xlegenformulario{
-    font-size: 22px;
-    font-weight: bold;
-
+.Xlegenformulario {
+  font-size: 22px;
+  font-weight: bold;
 }
-.Xsexo{
-    font-weight: bold;
-    text-align: center;
-
+.Xsexo {
+  font-weight: bold;
+  text-align: center;
 }
 .Xnombre {
-    color:Black;
+  color: Black;
 }
-.XdatosInteres{
-    font-size: 22px;
-    font-weight: bold;
-    text-align: right;
+.XdatosInteres {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
 }
 .XCondicion {
-    text-align: left;
-   font-size: 10px;
+  text-align: left;
+  font-size: 10px;
 }
-.Xviajes{
-    text-align: left;
+.Xviajes {
+  text-align: left;
 }
-.Xcomentario{
-    color: rgb(2, 2, 2);;
-
+.Xcomentario {
+  color: rgb(2, 2, 2);
 }
 .envires input {
-    width: 200px;
-    height: 200px;
-    font-size: 30px;
+  width: 200px;
+  height: 200px;
+  font-size: 30px;
 }
 
 .condiuso p {
-    font-size: 13px
+  font-size: 13px;
 }
 
 .FcontenedorTodo {
-    float: left;
-    width: 90%;
-    margin-left: 5%;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
 }
 
 .FcontenedorTodo h2 {
-    color: orangered;
-    margin: 25px;
-    font-size: 28px;
-    text-align: center;
+  color: orangered;
+  margin: 25px;
+  font-size: 28px;
+  text-align: center;
 }
 
 .FcontenedorTodo h3 {
-    color: white;
-    font-family: sans-serif;
+  color: white;
+  font-family: sans-serif;
 }
 
 .Fcontenedor-imagenes {
-    display: flex;
-    width: 85%;
-    margin: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border-radius: 3px;
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px;
 }
 
-
 .Fimage {
-    width: 50px;
-    height: 50px;
-    opacity: 1;
-    display: block;
-    transition: .5s ease;
-    backface-visibility: hidden;
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
 }
 
 .Fporte {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .Foverlay {
-    margin-top: 370px;
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+  margin-top: 370px;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .Ftexto {
-    background-color: #f09d56;
-    color: white;
-    font-size: 16px;
-    padding: 25px 32px;
+  background-color: #f09d56;
+  color: white;
+  font-size: 16px;
+  padding: 25px 32px;
 }
 
 .Fcontenedor:hover .Foverlay {
-    opacity: 1;
+  opacity: 1;
 }
 
 .Fcontenedor:hover .Fimagen {
-    opacity: 1;
+  opacity: 1;
 }
 
 .Fimagen img {
-    width: 100px;
+  width: 100px;
 }
 
 .Fcontenedor-frase {
-    text-align: center;
-    position: relative;
-    float: left;
-    width: 90%;
-    margin-left: 5%;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
-
+  text-align: center;
+  position: relative;
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
 }
 
 .Fcontenedor-frase .Ffrase {
-    color: #ff642a;
-    position: relative;
-    opacity: 1;
-
+  color: #ff642a;
+  position: relative;
+  opacity: 1;
 }
 
 .Fcontenedor-frase .Ffrase-peq {
-    color: dimgray;
-    position: relative;
-    opacity: 1;
-    margin-top: 20px;
-    margin-bottom: 40px;
+  color: dimgray;
+  position: relative;
+  opacity: 1;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .Fcontenedor-frase img {
-    opacity: 0.5;
-    height: 200px;
-    width: 1429px;
-    position: absolute;
+  opacity: 0.5;
+  height: 200px;
+  width: 1429px;
+  position: absolute;
 }
 
 .Fvaloracion {
-    float: left;
-    width: 90%;
-    margin-left: 5%;
-    background-color: white;
-    margin-bottom: 20px;
-    opacity: 90%;
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  margin-bottom: 20px;
+  opacity: 90%;
 }
 
 .Fvaloracion h2 {
-    color: orangered;
-    margin: 25px;
-    font-size: 28px;
-    text-align: center;
+  color: orangered;
+  margin: 25px;
+  font-size: 28px;
+  text-align: center;
 }
 
 .Fvaloracion p {
-    margin: 25px;
-    text-align: center;
-    font-size: 18px;
+  margin: 25px;
+  text-align: center;
+  font-size: 18px;
 }
 .CASA {
-    text-align: center;
-    background-color:orangered;
-    font-size: 50px;
+  text-align: center;
+  background-color: orangered;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-footer .loParamos{
-    float: center;
+footer .loParamos {
+  float: center;
+  margin: 0% 35%;
+  width: 4%;
+}
+footer .loParamos img {
+  width: 500%;
+}
 
-    margin: 0% 35%;
-    width: 4%
-   
+.juntos {
+  color: rgb(223, 236, 38);
+  font-style: oblique;
 }
-footer .loParamos img{
 
-    width: 800%;
-   
-}
